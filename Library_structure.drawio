@@ -1,0 +1,213 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5" pages="2">
+  <diagram name="Структура библиотеки" id="7aRSb2j0WFHyQc9EQW4V">
+    <mxGraphModel dx="1678" dy="999" grid="1" gridSize="12" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="tVq3XZyxapgvoaVHTZE7-0" />
+        <mxCell id="tVq3XZyxapgvoaVHTZE7-1" parent="tVq3XZyxapgvoaVHTZE7-0" />
+        <mxCell id="H5xT00BPctinC3L8TEBV-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="tVq3XZyxapgvoaVHTZE7-1" source="tVq3XZyxapgvoaVHTZE7-5" target="tVq3XZyxapgvoaVHTZE7-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tVq3XZyxapgvoaVHTZE7-5" value="&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Абстрактный класс-интерфейс&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;class MLP&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="tVq3XZyxapgvoaVHTZE7-1">
+          <mxGeometry x="768" y="721" width="192" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="H5xT00BPctinC3L8TEBV-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="tVq3XZyxapgvoaVHTZE7-1" source="tVq3XZyxapgvoaVHTZE7-9" target="tVq3XZyxapgvoaVHTZE7-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tVq3XZyxapgvoaVHTZE7-9" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Реализация&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;class MLP_Network&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="tVq3XZyxapgvoaVHTZE7-1">
+          <mxGeometry x="1056" y="745" width="143" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="tVq3XZyxapgvoaVHTZE7-34" value="&lt;span style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;class&amp;nbsp;Matrix_Layer&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="tVq3XZyxapgvoaVHTZE7-1">
+          <mxGeometry x="1296" y="745" width="143" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="tVq3XZyxapgvoaVHTZE7-52" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Структура библиотеки&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="tVq3XZyxapgvoaVHTZE7-1">
+          <mxGeometry x="768" y="624" width="192" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="H5xT00BPctinC3L8TEBV-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Отвечает за взаимодействие со всей нейросетью&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="tVq3XZyxapgvoaVHTZE7-1">
+          <mxGeometry x="1031.5" y="624" width="192" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="g2Gh6IY91OBKslTObcqp-0" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;API библиотеки&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="tVq3XZyxapgvoaVHTZE7-1">
+          <mxGeometry x="768" y="673" width="192" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="g2Gh6IY91OBKslTObcqp-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Отвечает за работу матричного слоя&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="tVq3XZyxapgvoaVHTZE7-1">
+          <mxGeometry x="1271.5" y="624" width="192" height="96" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Функционал библиотеки" id="kp47qIer02I5MdUqkPGD">
+    <mxGraphModel dx="2194" dy="1306" grid="1" gridSize="12" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HK8oVlaVs7-CN8Xq4BXI-8" value="&lt;h1 style=&quot;margin: 0px 0px 300px 5px; padding-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; font-size: 20px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Методы&lt;/span&gt;&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;align=left;strokeWidth=2;fillStyle=auto;perimeterSpacing=0;fillColor=none;dashPattern=8 8;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="672" y="240" width="480" height="336" as="geometry" />
+        </mxCell>
+        <mxCell id="HK8oVlaVs7-CN8Xq4BXI-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="HK8oVlaVs7-CN8Xq4BXI-1" target="HK8oVlaVs7-CN8Xq4BXI-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HK8oVlaVs7-CN8Xq4BXI-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="HK8oVlaVs7-CN8Xq4BXI-1" target="HK8oVlaVs7-CN8Xq4BXI-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HK8oVlaVs7-CN8Xq4BXI-1" value="&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Абстрактный класс-интерфейс&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;class MLP&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1104" y="97" width="192" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="HK8oVlaVs7-CN8Xq4BXI-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="HK8oVlaVs7-CN8Xq4BXI-2" target="HK8oVlaVs7-CN8Xq4BXI-35" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HK8oVlaVs7-CN8Xq4BXI-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="HK8oVlaVs7-CN8Xq4BXI-2" target="HK8oVlaVs7-CN8Xq4BXI-36" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fvrFSJT5CUcSXIlULDim-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="HK8oVlaVs7-CN8Xq4BXI-2" target="fvrFSJT5CUcSXIlULDim-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HK8oVlaVs7-CN8Xq4BXI-2" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Реализация&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;class MLP_Network&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1128.5" y="624" width="143" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="HK8oVlaVs7-CN8Xq4BXI-4" value="&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Создать слой(и) и задать им параметры&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="720" y="287" width="143" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="HK8oVlaVs7-CN8Xq4BXI-5" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Заполнение случайными весами всех слоев&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="960" y="287" width="143" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="HK8oVlaVs7-CN8Xq4BXI-6" value="&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Обратный проход через все слои (улучшение сходимости)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#E6E6E6;" parent="1" vertex="1">
+          <mxGeometry x="960" y="372" width="143" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="HK8oVlaVs7-CN8Xq4BXI-7" value="&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Прямой проход через все слои&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="720" y="384" width="143" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="HK8oVlaVs7-CN8Xq4BXI-33" value="&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Задать/получить веса модели&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="720" y="480" width="143" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="HK8oVlaVs7-CN8Xq4BXI-35" value="&lt;h1 style=&quot;margin: 0px 0px 150px 5px; padding-top: 0px; padding-bottom: 0px; padding-right: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; font-size: 20px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Поля&lt;/span&gt;&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;align=left;strokeWidth=2;fillStyle=auto;perimeterSpacing=0;fillColor=none;dashPattern=8 8;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="672" y="720" width="480" height="192" as="geometry" />
+        </mxCell>
+        <mxCell id="HK8oVlaVs7-CN8Xq4BXI-36" value="&lt;h1 style=&quot;margin: 0px 0px 400px 5px; padding-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; font-size: 20px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Методы&lt;/span&gt;&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;align=left;strokeWidth=2;fillStyle=auto;perimeterSpacing=0;fillColor=none;dashPattern=8 8;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1248" y="720" width="480" height="432" as="geometry" />
+        </mxCell>
+        <mxCell id="fvrFSJT5CUcSXIlULDim-2" value="Приватные" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=24;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="719" y="761" width="384" height="114" as="geometry">
+            <mxRectangle x="708" y="756" width="60" height="24" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fvrFSJT5CUcSXIlULDim-3" value="Вектор из двухмерных слоев (class&amp;nbsp;Matrix_Layer)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="fvrFSJT5CUcSXIlULDim-2">
+          <mxGeometry y="24" width="384" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fvrFSJT5CUcSXIlULDim-4" value="Функция активации на выходе кажого двухмерного&amp;nbsp;слоя (string)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="fvrFSJT5CUcSXIlULDim-2">
+          <mxGeometry y="54" width="384" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fvrFSJT5CUcSXIlULDim-5" value="Биосы?" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="fvrFSJT5CUcSXIlULDim-2">
+          <mxGeometry y="84" width="384" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fvrFSJT5CUcSXIlULDim-11" value="Приватные" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=24;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1296" y="768" width="384" height="114" as="geometry">
+            <mxRectangle x="708" y="756" width="60" height="24" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fvrFSJT5CUcSXIlULDim-12" value="Функция активации" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="fvrFSJT5CUcSXIlULDim-11">
+          <mxGeometry y="24" width="384" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fvrFSJT5CUcSXIlULDim-13" value="Функция вычисления ошибки" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="fvrFSJT5CUcSXIlULDim-11">
+          <mxGeometry y="54" width="384" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fvrFSJT5CUcSXIlULDim-14" value="Обучение..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="fvrFSJT5CUcSXIlULDim-11">
+          <mxGeometry y="84" width="384" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fvrFSJT5CUcSXIlULDim-15" value="Публичные" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=24;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;autosize=0;fixedWidth=0;fixDash=0;portConstraintRotation=0;" vertex="1" parent="1">
+          <mxGeometry x="1296" y="912" width="384" height="204" as="geometry">
+            <mxRectangle x="1296" y="864" width="60" height="24" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fvrFSJT5CUcSXIlULDim-16" value="Создать слой" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="fvrFSJT5CUcSXIlULDim-15">
+          <mxGeometry y="24" width="384" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fvrFSJT5CUcSXIlULDim-17" value="Заполнить все веса случайными" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="fvrFSJT5CUcSXIlULDim-15">
+          <mxGeometry y="54" width="384" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fvrFSJT5CUcSXIlULDim-18" value="Биосы?" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="fvrFSJT5CUcSXIlULDim-15">
+          <mxGeometry y="84" width="384" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fvrFSJT5CUcSXIlULDim-19" value="Прямой проход по всем слоям (метод возвращает выход)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="fvrFSJT5CUcSXIlULDim-15">
+          <mxGeometry y="114" width="384" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fvrFSJT5CUcSXIlULDim-20" value="Задать веса" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="fvrFSJT5CUcSXIlULDim-15">
+          <mxGeometry y="144" width="384" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fvrFSJT5CUcSXIlULDim-21" value="Обучение..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="fvrFSJT5CUcSXIlULDim-15">
+          <mxGeometry y="174" width="384" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fvrFSJT5CUcSXIlULDim-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fvrFSJT5CUcSXIlULDim-22" target="fvrFSJT5CUcSXIlULDim-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fvrFSJT5CUcSXIlULDim-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fvrFSJT5CUcSXIlULDim-22" target="fvrFSJT5CUcSXIlULDim-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fvrFSJT5CUcSXIlULDim-22" value="&lt;span style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;class&amp;nbsp;Matrix_Layer&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="839.5" y="1200" width="143" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="fvrFSJT5CUcSXIlULDim-37" value="&lt;h1 style=&quot;margin: 0px 0px 150px 5px; padding-top: 0px; padding-bottom: 0px; padding-right: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; font-size: 20px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Поля&lt;/span&gt;&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;align=left;strokeWidth=2;fillStyle=auto;perimeterSpacing=0;fillColor=none;dashPattern=8 8;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="383" y="1296" width="480" height="192" as="geometry" />
+        </mxCell>
+        <mxCell id="fvrFSJT5CUcSXIlULDim-40" value="Приватные" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=24;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="431" y="1335" width="384" height="114" as="geometry">
+            <mxRectangle x="708" y="756" width="60" height="24" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fvrFSJT5CUcSXIlULDim-41" value="Матрица нейронов" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="fvrFSJT5CUcSXIlULDim-40">
+          <mxGeometry y="24" width="384" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fvrFSJT5CUcSXIlULDim-42" value="Функция активации (string)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="fvrFSJT5CUcSXIlULDim-40">
+          <mxGeometry y="54" width="384" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fvrFSJT5CUcSXIlULDim-43" value="Биосы?" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="fvrFSJT5CUcSXIlULDim-40">
+          <mxGeometry y="84" width="384" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fvrFSJT5CUcSXIlULDim-44" value="&lt;h1 style=&quot;margin: 0px 0px 400px 5px; padding-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; font-size: 20px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Методы&lt;/span&gt;&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;align=left;strokeWidth=2;fillStyle=auto;perimeterSpacing=0;fillColor=none;dashPattern=8 8;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="960" y="1296" width="480" height="432" as="geometry" />
+        </mxCell>
+        <mxCell id="fvrFSJT5CUcSXIlULDim-45" value="Приватные" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=24;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1008" y="1344" width="384" height="114" as="geometry">
+            <mxRectangle x="708" y="756" width="60" height="24" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fvrFSJT5CUcSXIlULDim-46" value="Функция активации" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="fvrFSJT5CUcSXIlULDim-45">
+          <mxGeometry y="24" width="384" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fvrFSJT5CUcSXIlULDim-47" value="Функция вычисления ошибки" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="fvrFSJT5CUcSXIlULDim-45">
+          <mxGeometry y="54" width="384" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fvrFSJT5CUcSXIlULDim-48" value="Обучение..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="fvrFSJT5CUcSXIlULDim-45">
+          <mxGeometry y="84" width="384" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fvrFSJT5CUcSXIlULDim-49" value="Публичные" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=24;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;autosize=0;fixedWidth=0;fixDash=0;portConstraintRotation=0;" vertex="1" parent="1">
+          <mxGeometry x="1008" y="1488" width="384" height="204" as="geometry">
+            <mxRectangle x="1296" y="864" width="60" height="24" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fvrFSJT5CUcSXIlULDim-50" value="Создать матрицу слоя" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="fvrFSJT5CUcSXIlULDim-49">
+          <mxGeometry y="24" width="384" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fvrFSJT5CUcSXIlULDim-51" value="Заполнить все веса случайными" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="fvrFSJT5CUcSXIlULDim-49">
+          <mxGeometry y="54" width="384" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fvrFSJT5CUcSXIlULDim-52" value="Биосы?" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="fvrFSJT5CUcSXIlULDim-49">
+          <mxGeometry y="84" width="384" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fvrFSJT5CUcSXIlULDim-53" value="Прямой проход по каждому нейрону" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="fvrFSJT5CUcSXIlULDim-49">
+          <mxGeometry y="114" width="384" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fvrFSJT5CUcSXIlULDim-54" value="Задать веса" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="fvrFSJT5CUcSXIlULDim-49">
+          <mxGeometry y="144" width="384" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fvrFSJT5CUcSXIlULDim-55" value="Обучение..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="fvrFSJT5CUcSXIlULDim-49">
+          <mxGeometry y="174" width="384" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fvrFSJT5CUcSXIlULDim-58" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Функционал библиотеки&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1104" y="24" width="192" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="fvrFSJT5CUcSXIlULDim-59" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Перегрузка загрузки/выгрузки/операций над весами&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="961" y="468" width="143" height="72" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
