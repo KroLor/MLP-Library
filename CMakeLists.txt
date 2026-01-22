@@ -1,27 +1,32 @@
 cmake_minimum_required(VERSION 4.1.0)
 project(MLPLib)
 
-# Установка стандарта C++
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
 
-# Включение каталогов с заголовками
-include_directories(src)
+set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
-# Директория исходных файлов
-set(SOURSE_DIRECTORY src)
+add_library(mlp_lib SHARED src/MLP.cpp)
+target_include_directories(mlp_lib PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/src)
 
-# Поиск всех исходных файлов
-file(GLOB SOURCES "${SOURSE_DIRECTORY}/*.cpp")
+option(BUILD_TEST "Build test application" ON)
+if(BUILD_TEST)
+    add_executable(mlp_test test/main.cpp)
+    target_link_libraries(mlp_test PRIVATE mlp_lib)
+    target_include_directories(mlp_test PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/src)
+endif()
 
-# Создание исполняемого файла
-add_executable(${PROJECT_NAME} ${SOURCES})
+add_executable(mlp_example example/minimal_example.cpp)
+target_link_libraries(mlp_example PRIVATE mlp_lib)
+target_include_directories(mlp_example PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/src)
 
-# Установка свойств для отладки и релиза
-set_target_properties(${PROJECT_NAME} PROPERTIES
-    DEBUG_POSTFIX "_d"
-    RELEASE_POSTFIX ""
-)
+if(MSVC)
+    target_compile_options(mlp_lib PRIVATE /W4)
+else()
+    target_compile_options(mlp_lib PRIVATE -Wall -Wextra -pedantic)
+endif()
 
-# Установка выходного каталога
-set(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR}/bin)
+message(STATUS "MLP-LIBRARY configured successfully!")
